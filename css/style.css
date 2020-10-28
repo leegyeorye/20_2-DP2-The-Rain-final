@@ -1,0 +1,58 @@
+.main{max-width: 100%;height:100%;}
+.title{position: absolute;
+	top:calc(80% - 80px / 2);
+	left:calc(50% - 480px / 2);}
+
+.title-blur{
+	animation-name: blur;
+	animation-duration: 2s;
+	animation-fill-mode: forwards;
+	animation-direction: reverse;
+}
+
+@keyframes blur{
+	0%{filter: blur(0px);}
+	100%{filter: blur(50px);}
+}
+.box1 {
+	fill: #ffffff;
+	transition: all 0.2s ease-in;
+}
+
+.box1:hover {
+	fill: #000000;
+	
+}
+
+.img-2{width: 800px;height: 600px;
+	position: absolute;
+	top: 0%;
+	left: 0%;
+	z-index: -100;}
+
+
+.logo{width: 100px;height: 100px;
+	position: absolute;
+	top: 85%;
+	left:0%;}
+	
+.net{fill: #ffffff;
+	position: absolute;
+	bottom:5%;
+	left:3%;
+}
+.date{position: absolute;
+	bottom: 8%;
+	left: 44%;
+	color: #ffffff;
+	font-size: 1.5em;
+	letter-spacing: 8px;}
+
+.box{	
+	color: #ffffff;
+	width: 100px;height: 100px;
+	z-index: 100;
+	position: absolute;
+	top: 10%;
+	left: 10%;
+}
